@@ -1,5 +1,14 @@
 package com.dio.datas;
 
+/**
+ * 
+ * @author LeviQ27
+ * 
+ * Classe de exemplo para o exercício da Aula 2 de Variáveis, Tipos de
+ * Dados e Operadores Aritméticos
+ *
+ */
+
 public class Main {
     
     public static void main(String[] args) {
