@@ -16,6 +16,12 @@ public class Main {
         Calculadora.multiplicacao(7, 8);
         Calculadora.divisao(5, 2.5);
 
+        // Mensagem
+        Mensagem.obterMensagem(9);
+        Mensagem.obterMensagem(14);
+        Mensagem.obterMensagem(1);
+
+
 
     }
     
