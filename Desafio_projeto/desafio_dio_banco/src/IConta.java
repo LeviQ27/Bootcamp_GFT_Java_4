@@ -1,4 +1,4 @@
-import javax.print.DocFlavor.STRING;
+
 
 public interface IConta 
 {
