@@ -1,3 +1,7 @@
+import java.util.*;
+
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -8,7 +12,7 @@ public class ListarController {
     private Button acaoListar;
 
     @FXML
-    private ListView<?> listarClientes;
+    private ListView<Conta> listarClientes;
 
     @FXML
     void listarClientes(ActionEvent event) {
@@ -46,8 +50,33 @@ public class ListarController {
         cc5.depositar(4000);
         cp5.depositar(15000);
 
-       ListView<Conta> listarClientes = new ListView<Conta>();
-       listarClientes.getItems().addAll(cc1);
+        /*System.out.println(cc1.toString());
+        System.out.println(cp1.toString());
+        System.out.println(cc2.toString());
+        System.out.println(cp2.toString());
+        System.out.println(cc3.toString());
+        System.out.println(cp3.toString());
+        System.out.println(cc4.toString());
+        System.out.println(cp4.toString());
+        System.out.println(cc5.toString());
+        System.out.println(cp5.toString());*/
+
+       List<Conta> criarClientes = new ArrayList<Conta>(){{
+           add(cc1);
+           add(cp1);
+           add(cc2);
+           add(cp2);
+           add(cc3);
+           add(cp3);
+           add(cc4);
+           add(cp4);
+           add(cc5);
+           add(cp5);
+       }};
+       
+       this.listarClientes.getItems().addAll(criarClientes);
+       this.acaoListar.setDisable(true);
+       
 
     }
 

@@ -1,3 +1,5 @@
+import javax.print.DocFlavor.STRING;
+
 public interface IConta 
 {
 
@@ -7,6 +9,6 @@ public interface IConta
 
     void transferir(double valor ,Conta contaDestino);
 
-    void imprimirExtrato();
+    String toString();
     
 }

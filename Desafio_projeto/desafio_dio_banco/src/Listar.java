@@ -39,20 +39,18 @@ public class Listar
         cc5.depositar(4000);
         cp5.depositar(15000);
 
-        cc1.imprimirExtrato();
-        cp1.imprimirExtrato();
-        cc2.imprimirExtrato();
-        cp2.imprimirExtrato();
-        cc3.imprimirExtrato();
-        cp3.imprimirExtrato();
-        cc4.imprimirExtrato();
-        cp4.imprimirExtrato();
-        cc5.imprimirExtrato();
-        cp5.imprimirExtrato();
+        cc1.toString();
+        cp1.toString();
+        cc2.toString();
+        cp2.toString();
+        cc3.toString();
+        cp3.toString();
+        cc4.toString();
+        cp4.toString();
+        cc5.toString();
+        cp5.toString();
 
 
     }
-    
-    
     
 }

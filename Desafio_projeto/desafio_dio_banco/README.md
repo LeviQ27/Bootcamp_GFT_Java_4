@@ -7,3 +7,6 @@
 
 ## :interrobang:
 > Uma das questões a melhora é fazer com que a listagem dos clientes seja no próprio painel que foi executado.
+
+## ver@1.2.0
+> Nessa nova atualização, a questão da listagem aparecer no próprio painel foi resolvida, ao clicar no botão "Listar", vai listar todas as contas no painel que foi executado e o botão fica desativado.

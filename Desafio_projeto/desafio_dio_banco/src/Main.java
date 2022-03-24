@@ -20,7 +20,7 @@ public class Main extends Application
         Parent root = fxmlLoader.load();
         Scene tela = new Scene(root);
 
-        primaryStage.setTitle("Desafio do Banco Digital ver@1.0.1");
+        primaryStage.setTitle("Desafio do Banco Digital ver@1.2.0");
         primaryStage
         .setScene(tela);
         primaryStage.show();
